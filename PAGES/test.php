@@ -2,7 +2,7 @@
 
 <p>
 <?php
-    echo 'Host info: ' . mysqli_get_host_info($mysqliConnection) . '<br>';
-    echo 'MySQLi stat: ' . mysqli_stat($mysqliConnection);
+    echo 'Host info: ' . mysqli_get_host_info($conn) . '<br>';
+    echo 'MySQLi stat: ' . mysqli_stat($conn);
     ?>
 </p>

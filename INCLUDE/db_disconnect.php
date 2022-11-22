@@ -1,1 +1,1 @@
-<?php mysqli_close($mysqliConnection); ?>
+<?php mysqli_close($conn); ?>
