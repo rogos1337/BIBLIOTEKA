@@ -1,4 +1,4 @@
-<h1>TEST POŁĄCZENIA Z SERWEREM <i><?=$servername ?></i> I BAZĄ <i><?=$database ?></i></h1>
+<h1>Test połączenia z serverem <i><?=$servername ?></i> i bazą <i><?=$database ?></i></h1>
 
 <p>
 <?php

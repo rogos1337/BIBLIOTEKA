@@ -32,7 +32,7 @@ $result = mysqli_query($conn, $query);
                     . $row['Data_skreslenia'] . '</td><td>'
                     . $row['Nr_legitymacji'] . '</td><td>'
                     . $row['Funkcja'] . '</td><td>'
-                    . $row['Plec'] . '</td><tr>';
+                    . $row['Plec'] . '</td></tr>';
             }
         }
         ?>
