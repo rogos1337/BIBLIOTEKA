@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Style the side navigation */
@@ -10,7 +13,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #95CBFF;
+    background-color: #5D5E60;
     overflow-x: hidden;
 }
 
@@ -23,18 +26,18 @@
 }
 
 .sidenav a.active {
-    background-color: #9CAAF2;
+    background-color: #36413E;
 }
 
 /* Change color on hover */
 .sidenav a:hover {
-    background-color: #B4E5FF;
+    background-color: #8D8D92;
     color: black;
 }
 
 /* Style the content */
 .content {
-    background-color: #FFF4D1;
+    background-color: #D7D6D6;
     margin-left: 200px;
     padding: 20px;
 }
