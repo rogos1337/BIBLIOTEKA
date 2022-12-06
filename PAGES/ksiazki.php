@@ -12,7 +12,7 @@
 </head>
 <h1>Tabela <i>ksiazki</i></h1>
 <?php
-$query = 'SELECT * FROM ksiazki INNER JOIN dzialy ON ksiazki.Id_dzial=dzialy.Id_dzial;';
+$query = 'SELECT * FROM ksiazki';
 $result = mysqli_query($conn, $query);
 ?>
 <p>Zawiera <?=mysqli_num_rows($result)?> wierszy</p>
@@ -23,15 +23,16 @@ $result = mysqli_query($conn, $query);
             while ($row = mysqli_fetch_assoc($result)){
                 echo '<tr><td>' . $row['Sygnatura'] . '</td><td>'
                     . $row['Tytul'] . '</td><td>'
-                    . $row['Imie'] . '</td><td>'
                     . $row['Nazwisko'] . '</td><td>'
+                    . $row['Imie'] . '</td><td>'
                     . $row['Wydawnictwo'] . '</td><td>'
                     . $row['Miejsce_wyd'] . '</td><td>'
                     . $row['Rok_wyd'] . '</td><td>'
                     . $row['Objetosc_ks'] . '</td><td>'
                     . $row['Cena'] . '</td><td>'
-                    . $row['Nazwa'] . '</td></tr>';
+                    . $row['Id_dzial'] . '</td><td>';
             }
         }
         ?>
 </table>
+
